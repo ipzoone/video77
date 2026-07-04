@@ -1,1 +1,1 @@
-web: gunicorn fb:app --bind 0.0.0.0:$PORT --workers 2 --timeout 60
+web: gunicorn scrap:app --bind 0.0.0.0:$PORT --workers 2 --timeout 60
